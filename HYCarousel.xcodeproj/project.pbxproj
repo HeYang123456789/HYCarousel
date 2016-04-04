@@ -15,6 +15,7 @@
 		3BEB1C201CB2F941001AAECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEB1C1E1CB2F941001AAECA /* LaunchScreen.storyboard */; };
 		3BEB1C2B1CB2F941001AAECA /* HYCarouselTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB1C2A1CB2F941001AAECA /* HYCarouselTests.m */; };
 		3BEB1C361CB2F941001AAECA /* HYCarouselUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB1C351CB2F941001AAECA /* HYCarouselUITests.m */; };
+		3BEB1C461CB2FACB001AAECA /* HYCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB1C451CB2FACB001AAECA /* HYCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3BEB1C311CB2F941001AAECA /* HYCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEB1C351CB2F941001AAECA /* HYCarouselUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCarouselUITests.m; sourceTree = "<group>"; };
 		3BEB1C371CB2F941001AAECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEB1C441CB2FACB001AAECA /* HYCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCarousel.h; sourceTree = "<group>"; };
+		3BEB1C451CB2FACB001AAECA /* HYCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		3BEB1C0F1CB2F940001AAECA /* HYCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				3BEB1C431CB2F9D8001AAECA /* HYCarousel */,
 				3BEB1C131CB2F940001AAECA /* AppDelegate.h */,
 				3BEB1C141CB2F940001AAECA /* AppDelegate.m */,
 				3BEB1C161CB2F940001AAECA /* ViewController.h */,
@@ -138,6 +142,15 @@
 				3BEB1C371CB2F941001AAECA /* Info.plist */,
 			);
 			path = HYCarouselUITests;
+			sourceTree = "<group>";
+		};
+		3BEB1C431CB2F9D8001AAECA /* HYCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB1C441CB2FACB001AAECA /* HYCarousel.h */,
+				3BEB1C451CB2FACB001AAECA /* HYCarousel.m */,
+			);
+			path = HYCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				3BEB1C181CB2F940001AAECA /* ViewController.m in Sources */,
 				3BEB1C151CB2F940001AAECA /* AppDelegate.m in Sources */,
+				3BEB1C461CB2FACB001AAECA /* HYCarousel.m in Sources */,
 				3BEB1C121CB2F940001AAECA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
