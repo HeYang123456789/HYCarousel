@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BEB1C121CB2F940001AAECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB1C111CB2F940001AAECA /* main.m */; };
+		3BEB1C151CB2F940001AAECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB1C141CB2F940001AAECA /* AppDelegate.m */; };
+		3BEB1C181CB2F940001AAECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB1C171CB2F940001AAECA /* ViewController.m */; };
+		3BEB1C1B1CB2F941001AAECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEB1C191CB2F941001AAECA /* Main.storyboard */; };
+		3BEB1C1D1CB2F941001AAECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEB1C1C1CB2F941001AAECA /* Assets.xcassets */; };
+		3BEB1C201CB2F941001AAECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEB1C1E1CB2F941001AAECA /* LaunchScreen.storyboard */; };
+		3BEB1C2B1CB2F941001AAECA /* HYCarouselTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB1C2A1CB2F941001AAECA /* HYCarouselTests.m */; };
+		3BEB1C361CB2F941001AAECA /* HYCarouselUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB1C351CB2F941001AAECA /* HYCarouselUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BEB1C271CB2F941001AAECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BEB1C051CB2F940001AAECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BEB1C0C1CB2F940001AAECA;
+			remoteInfo = HYCarousel;
+		};
+		3BEB1C321CB2F941001AAECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BEB1C051CB2F940001AAECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BEB1C0C1CB2F940001AAECA;
+			remoteInfo = HYCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BEB1C0D1CB2F940001AAECA /* HYCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEB1C111CB2F940001AAECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BEB1C131CB2F940001AAECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BEB1C141CB2F940001AAECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BEB1C161CB2F940001AAECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BEB1C171CB2F940001AAECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BEB1C1A1CB2F941001AAECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BEB1C1C1CB2F941001AAECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BEB1C1F1CB2F941001AAECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BEB1C211CB2F941001AAECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEB1C261CB2F941001AAECA /* HYCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEB1C2A1CB2F941001AAECA /* HYCarouselTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCarouselTests.m; sourceTree = "<group>"; };
+		3BEB1C2C1CB2F941001AAECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEB1C311CB2F941001AAECA /* HYCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEB1C351CB2F941001AAECA /* HYCarouselUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCarouselUITests.m; sourceTree = "<group>"; };
+		3BEB1C371CB2F941001AAECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BEB1C0A1CB2F940001AAECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEB1C231CB2F941001AAECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEB1C2E1CB2F941001AAECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BEB1C041CB2F940001AAECA = {
+			isa = PBXGroup;
+			children = (
+				3BEB1C0F1CB2F940001AAECA /* HYCarousel */,
+				3BEB1C291CB2F941001AAECA /* HYCarouselTests */,
+				3BEB1C341CB2F941001AAECA /* HYCarouselUITests */,
+				3BEB1C0E1CB2F940001AAECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BEB1C0E1CB2F940001AAECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB1C0D1CB2F940001AAECA /* HYCarousel.app */,
+				3BEB1C261CB2F941001AAECA /* HYCarouselTests.xctest */,
+				3BEB1C311CB2F941001AAECA /* HYCarouselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BEB1C0F1CB2F940001AAECA /* HYCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB1C131CB2F940001AAECA /* AppDelegate.h */,
+				3BEB1C141CB2F940001AAECA /* AppDelegate.m */,
+				3BEB1C161CB2F940001AAECA /* ViewController.h */,
+				3BEB1C171CB2F940001AAECA /* ViewController.m */,
+				3BEB1C191CB2F941001AAECA /* Main.storyboard */,
+				3BEB1C1C1CB2F941001AAECA /* Assets.xcassets */,
+				3BEB1C1E1CB2F941001AAECA /* LaunchScreen.storyboard */,
+				3BEB1C211CB2F941001AAECA /* Info.plist */,
+				3BEB1C101CB2F940001AAECA /* Supporting Files */,
+			);
+			path = HYCarousel;
+			sourceTree = "<group>";
+		};
+		3BEB1C101CB2F940001AAECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB1C111CB2F940001AAECA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BEB1C291CB2F941001AAECA /* HYCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB1C2A1CB2F941001AAECA /* HYCarouselTests.m */,
+				3BEB1C2C1CB2F941001AAECA /* Info.plist */,
+			);
+			path = HYCarouselTests;
+			sourceTree = "<group>";
+		};
+		3BEB1C341CB2F941001AAECA /* HYCarouselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB1C351CB2F941001AAECA /* HYCarouselUITests.m */,
+				3BEB1C371CB2F941001AAECA /* Info.plist */,
+			);
+			path = HYCarouselUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BEB1C0C1CB2F940001AAECA /* HYCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEB1C3A1CB2F941001AAECA /* Build configuration list for PBXNativeTarget "HYCarousel" */;
+			buildPhases = (
+				3BEB1C091CB2F940001AAECA /* Sources */,
+				3BEB1C0A1CB2F940001AAECA /* Frameworks */,
+				3BEB1C0B1CB2F940001AAECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYCarousel;
+			productName = HYCarousel;
+			productReference = 3BEB1C0D1CB2F940001AAECA /* HYCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BEB1C251CB2F941001AAECA /* HYCarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEB1C3D1CB2F941001AAECA /* Build configuration list for PBXNativeTarget "HYCarouselTests" */;
+			buildPhases = (
+				3BEB1C221CB2F941001AAECA /* Sources */,
+				3BEB1C231CB2F941001AAECA /* Frameworks */,
+				3BEB1C241CB2F941001AAECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BEB1C281CB2F941001AAECA /* PBXTargetDependency */,
+			);
+			name = HYCarouselTests;
+			productName = HYCarouselTests;
+			productReference = 3BEB1C261CB2F941001AAECA /* HYCarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BEB1C301CB2F941001AAECA /* HYCarouselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEB1C401CB2F941001AAECA /* Build configuration list for PBXNativeTarget "HYCarouselUITests" */;
+			buildPhases = (
+				3BEB1C2D1CB2F941001AAECA /* Sources */,
+				3BEB1C2E1CB2F941001AAECA /* Frameworks */,
+				3BEB1C2F1CB2F941001AAECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BEB1C331CB2F941001AAECA /* PBXTargetDependency */,
+			);
+			name = HYCarouselUITests;
+			productName = HYCarouselUITests;
+			productReference = 3BEB1C311CB2F941001AAECA /* HYCarouselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BEB1C051CB2F940001AAECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HEYANG;
+				TargetAttributes = {
+					3BEB1C0C1CB2F940001AAECA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3BEB1C251CB2F941001AAECA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3BEB1C0C1CB2F940001AAECA;
+					};
+					3BEB1C301CB2F941001AAECA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3BEB1C0C1CB2F940001AAECA;
+					};
+				};
+			};
+			buildConfigurationList = 3BEB1C081CB2F940001AAECA /* Build configuration list for PBXProject "HYCarousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BEB1C041CB2F940001AAECA;
+			productRefGroup = 3BEB1C0E1CB2F940001AAECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BEB1C0C1CB2F940001AAECA /* HYCarousel */,
+				3BEB1C251CB2F941001AAECA /* HYCarouselTests */,
+				3BEB1C301CB2F941001AAECA /* HYCarouselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BEB1C0B1CB2F940001AAECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEB1C201CB2F941001AAECA /* LaunchScreen.storyboard in Resources */,
+				3BEB1C1D1CB2F941001AAECA /* Assets.xcassets in Resources */,
+				3BEB1C1B1CB2F941001AAECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEB1C241CB2F941001AAECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEB1C2F1CB2F941001AAECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BEB1C091CB2F940001AAECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEB1C181CB2F940001AAECA /* ViewController.m in Sources */,
+				3BEB1C151CB2F940001AAECA /* AppDelegate.m in Sources */,
+				3BEB1C121CB2F940001AAECA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEB1C221CB2F941001AAECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEB1C2B1CB2F941001AAECA /* HYCarouselTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEB1C2D1CB2F941001AAECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEB1C361CB2F941001AAECA /* HYCarouselUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BEB1C281CB2F941001AAECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BEB1C0C1CB2F940001AAECA /* HYCarousel */;
+			targetProxy = 3BEB1C271CB2F941001AAECA /* PBXContainerItemProxy */;
+		};
+		3BEB1C331CB2F941001AAECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BEB1C0C1CB2F940001AAECA /* HYCarousel */;
+			targetProxy = 3BEB1C321CB2F941001AAECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BEB1C191CB2F941001AAECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEB1C1A1CB2F941001AAECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BEB1C1E1CB2F941001AAECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEB1C1F1CB2F941001AAECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BEB1C381CB2F941001AAECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BEB1C391CB2F941001AAECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BEB1C3B1CB2F941001AAECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodboy.HYCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BEB1C3C1CB2F941001AAECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodboy.HYCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BEB1C3E1CB2F941001AAECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodboy.HYCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYCarousel.app/HYCarousel";
+			};
+			name = Debug;
+		};
+		3BEB1C3F1CB2F941001AAECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodboy.HYCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYCarousel.app/HYCarousel";
+			};
+			name = Release;
+		};
+		3BEB1C411CB2F941001AAECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodboy.HYCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYCarousel;
+			};
+			name = Debug;
+		};
+		3BEB1C421CB2F941001AAECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodboy.HYCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYCarousel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BEB1C081CB2F940001AAECA /* Build configuration list for PBXProject "HYCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEB1C381CB2F941001AAECA /* Debug */,
+				3BEB1C391CB2F941001AAECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEB1C3A1CB2F941001AAECA /* Build configuration list for PBXNativeTarget "HYCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEB1C3B1CB2F941001AAECA /* Debug */,
+				3BEB1C3C1CB2F941001AAECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BEB1C3D1CB2F941001AAECA /* Build configuration list for PBXNativeTarget "HYCarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEB1C3E1CB2F941001AAECA /* Debug */,
+				3BEB1C3F1CB2F941001AAECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BEB1C401CB2F941001AAECA /* Build configuration list for PBXNativeTarget "HYCarouselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEB1C411CB2F941001AAECA /* Debug */,
+				3BEB1C421CB2F941001AAECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BEB1C051CB2F940001AAECA /* Project object */;
+}
